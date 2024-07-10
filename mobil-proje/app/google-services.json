@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "354846197911",
+    "project_id": "yazlabproje-1c0ad",
+    "storage_bucket": "yazlabproje-1c0ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354846197911:android:26f3bff06381ab544281d2",
+        "android_client_info": {
+          "package_name": "com.aylinexample.yazlabproje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7JpGJ9mlRJ9VrBW7p-FEeN7yjpCsMhy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

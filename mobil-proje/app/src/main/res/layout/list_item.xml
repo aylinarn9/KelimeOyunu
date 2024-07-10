@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanici Ad:"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvkullaniciad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="8dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvAktifDurum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            />
+        <Button
+            android:id="@+id/btnistek"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="istek"
+            android:textSize="8sp"
+            android:padding="5dp" />
+        <Button
+            android:id="@+id/btnistekkabul"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="onay"
+            android:textSize="8sp"
+            android:padding="5dp" />
+        <Button
+            android:id="@+id/btnistekred"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="red"
+            android:textSize="8sp"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
